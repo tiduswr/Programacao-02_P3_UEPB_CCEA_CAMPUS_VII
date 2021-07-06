@@ -1,0 +1,10 @@
+//Como utilizar a chamada de um método na fila de processamentos Swing, evitando telas brancas
+public static void main(String[] args) {
+    SwingUtilities.invokeLater(
+        new Runnable() {
+            public void run() {
+                //Insira o metodo para entrar na fila de processamento aqui
+            }
+        }
+    );
+}
